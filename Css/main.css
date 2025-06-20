@@ -20,7 +20,6 @@ li {
   list-style: none;
 }
 .section__title {
-  width: 534px;
   font-size: 55px;
   font-weight: 400;
   line-height: 61.99px;
@@ -61,6 +60,7 @@ li {
   margin-left: 320px;
 }
 .home__wrapper > .home__title {
+  width: 534px;
   margin-left: 25px;
   padding: 60px 0;
   text-align: center;
@@ -125,6 +125,9 @@ li {
   align-items: center;
   justify-content: space-between;
 }
+.build__left--title {
+  width: 534px;
+}
 .build__left--p {
   width: 392px;
   padding: 30px 0;
@@ -140,6 +143,9 @@ li {
   justify-content: space-between;
   padding: 80px 0;
 }
+.activate__left--title {
+  width: 534px;
+}
 .activate__left--p {
   width: 392px;
   padding: 30px 0;
@@ -147,4 +153,61 @@ li {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+}
+/* Valume section styles */
+.valume {
+  background-color: #0d0d0d;
+  color: #fff;
+}
+.valume__wrapper {
+  padding: 80px 0;
+}
+.valume__top {
+  text-align: center;
+}
+.valume__subtitle {
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 61.99px;
+  letter-spacing: 2.93px;
+}
+.valume__medium {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  bottom: 10px;
+  background-color: #242424;
+  width: 386px;
+  height: 319px;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1;
+}
+.span1 {
+  width: 356px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 40px;
+  background-color: #39aaff;
+}
+.card__icon {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.card__p {
+  padding: 40px 0;
+  width: 323px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.61px;
+  letter-spacing: 0.14px;
 }
